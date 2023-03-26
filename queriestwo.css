@@ -292,7 +292,7 @@
     right: 16%;
   }
   .back-btn {
-    bottom: 24%;
+    bottom: 25%;
     left: 30%;
   }
 }
@@ -328,7 +328,7 @@
     right: 22%;
   }
   .back-btn {
-    bottom: 25%;
+    bottom: 26%;
     left: 30%;
   }
 }
@@ -379,7 +379,7 @@
     right: 22%;
   }
   .back-btn {
-    bottom: 25%;
+    bottom: 26%;
     left: 32%;
   }
 }
@@ -397,7 +397,7 @@
     right: 25%;
   }
   .back-btn {
-    bottom: 25%;
+    bottom: 26%;
     left: 32%;
   }
 }
@@ -415,7 +415,7 @@
     right: 28%;
   }
   .back-btn {
-    bottom: 25%;
+    bottom: 26%;
     left: 32%;
   }
 }
@@ -450,10 +450,7 @@
     position: absolute;
     left: 41%;
   }
-  /* .next-btn-div {
-    bottom: 24%;
-    right: 17%;
-  } */
+
   .next-btn:link,
   .next-btn:visited {
     bottom: 24%;
@@ -461,7 +458,7 @@
   }
 
   .back-btn {
-    bottom: 25%;
+    bottom: 26%;
     left: 36%;
   }
 }
@@ -504,7 +501,7 @@
   }
 
   .back-btn {
-    bottom: 25%;
+    bottom: 26%;
     left: 40%;
   }
 }

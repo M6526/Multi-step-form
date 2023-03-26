@@ -119,9 +119,6 @@ Instead 1 rem =em = 16px*/
     /* width: 80rem; */
     color: #f0f6ff;
   }
-  .header {
-    /* width: 80rem; */
-  }
   .main-nav {
     display: none;
   }
@@ -219,7 +216,7 @@ Instead 1 rem =em = 16px*/
   }
   .next-btn:link,
   .next-btn:visited {
-    bottom: 22%;
+    bottom: 24%;
     right: 10%;
   }
 }
@@ -238,7 +235,7 @@ Instead 1 rem =em = 16px*/
   }
   .next-btn:link,
   .next-btn:visited {
-    bottom: 22%;
+    bottom: 24%;
     right: 14%;
   }
 }
@@ -265,7 +262,7 @@ Instead 1 rem =em = 16px*/
   }
   .next-btn:link,
   .next-btn:visited {
-    bottom: 22%;
+    bottom: 24%;
     right: 13%;
   }
 }
@@ -292,7 +289,7 @@ Instead 1 rem =em = 16px*/
   }
   .next-btn:link,
   .next-btn:visited {
-    bottom: 22%;
+    bottom: 24%;
     right: 20%;
   }
 }
@@ -316,7 +313,7 @@ Instead 1 rem =em = 16px*/
   }
   .next-btn:link,
   .next-btn:visited {
-    bottom: 22%;
+    bottom: 24%;
     right: 24%;
   }
 }
@@ -344,7 +341,7 @@ Instead 1 rem =em = 16px*/
   }
   .next-btn:link,
   .next-btn:visited {
-    bottom: 22%;
+    bottom: 24%;
     right: 26%;
   }
 }
