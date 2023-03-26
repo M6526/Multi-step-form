@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px; */
+  /* 10/16 = 0.625*100 = 62.5 */
+  /* Percentage of user's Browsers font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* Does not work on Safari and microsoft edge */
+  /* scroll-behavior: smooth; */
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+
+  /* Only works if there is nothing to  absolutely positioned in relative to the body */
+  overflow-x: hidden;
+}
+.header {
+  position: relative;
+  background-color: #f0f6ff;
+}
+/* Navigation */
+.main-nav-list {
+  position: absolute;
+  left: 25%;
+  top: 18%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  gap: 1.8rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s;
+  border: 0.1rem solid #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 50%;
+  background-color: #473dff;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #02295a;
+  background-color: #f0f6ff;
+}
+.hero-section {
+  background-color: #f0f6ff;
+  padding: 0rem 2rem;
+  height: 62vh;
+  overflow: hidden;
+}
+.main-div-tab {
+  display: none;
+}
+.main-nav-1 {
+  display: none;
+}
+.hero-text-box {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  top: 15%;
+  right: 5%;
+  box-shadow: 0.2rem 0.2rem 0.3rem hsl(217, 100%, 97%);
+  border-radius: 1.2rem;
+  border: 0.1rem solid #fff;
+  background-color: #fff;
+  /* padding: 3.4rem 2.4rem; */
+  padding: 5rem 2rem;
+  overflow: hidden;
+}
+.Thank-you-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+}
+
+.secondary-heading {
+  font-size: 2rem;
+  text-align: center;
+  color: #02295a;
+  margin-bottom: 1.2rem;
+}
+.hero-description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #9699ab;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+.main-form-div {
+  display: flex;
+  flex-direction: column;
+}
+.emial-div,
+.ceo-name,
+.phone-no {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.ceo-name,
+.emial-div {
+  margin-bottom: 1.2rem;
+}
+.color-1,
+.color-2,
+.color-3 {
+  color: #02295a;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.name-field,
+.emial-field,
+.phone-field {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #9699ab;
+  padding: 1.2rem 2.4rem;
+}
+.Next-btn-div {
+  padding: 2rem;
+}
+.Next-btn-div-1 {
+  display: flex;
+  align-items: center;
+  /* gap: 13.5rem; */
+  padding: 1.5rem;
+  /* justify-content: space-between; */
+}
+.back-btn {
+  position: absolute;
+  bottom: 4%;
+  left: 4%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #9699ab;
+  text-decoration: none;
+}
+.next-btn:link,
+.next-btn:visited {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s;
+  border: 0.1rem solid #fff;
+  border-radius: 0.4rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #02295a;
+  bottom: 2%;
+  left: 62%;
+}
+.next-btn:hover,
+.next-btn:active {
+  color: #bfe2fd;
+  background-color: #473dff;
+}

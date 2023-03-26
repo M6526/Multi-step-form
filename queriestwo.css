@@ -1,0 +1,512 @@
+@media (min-width: 23.5em) {
+  html {
+    /* 11px/16px */
+    font-size: 68.75%;
+    /* overflow-x: hidden; */
+  }
+  body {
+    background-size: cover;
+  }
+  .main-nav-div {
+    /* width: 500px;
+      height: 180px; */
+    margin: 0rem;
+  }
+  .hero-section {
+    background-color: #f0f6ff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    height: 66vh;
+    /* padding: 0rem 2rem; */
+    /* height: 1040px; */
+  }
+  .hero-text-box {
+    padding: 3.4rem 2.4rem;
+    height: 85%;
+  }
+  .nav-svg {
+    width: 482px;
+    height: 50%;
+    margin: 0rem;
+  }
+  .color-1,
+  .color-2,
+  .color-3 {
+    margin-bottom: 0.7rem;
+  }
+  .toggle-btn {
+    top: 87%;
+    position: absolute;
+    left: 43%;
+  }
+  .button-div {
+    /* gap: 7rem; */
+    justify-content: space-between;
+  }
+
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: -10%;
+    right: 5%;
+  }
+  .back-btn {
+    bottom: -8%;
+    left: 6%;
+  }
+}
+@media (min-width: 30em) {
+  body {
+    background-size: cover;
+  }
+  .nav-svg {
+    width: 565px;
+    height: 50%;
+    margin: 0rem;
+  }
+  .main-nav-list {
+    left: 25%;
+    top: 13%;
+    gap: 3.2rem;
+  }
+  .hero-text-box {
+    padding: 3.4rem 2.4rem;
+    height: 85%;
+  }
+  .hero-section {
+    background-color: #f0f6ff;
+    height: 62vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .toggle-btn {
+    top: 83%;
+    position: absolute;
+    left: 46%;
+  }
+  .button-div {
+    /* gap: 10rem; */
+    justify-content: space-between;
+  }
+
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: -12%;
+    right: 5%;
+  }
+  .back-btn {
+    bottom: -10%;
+    left: 6%;
+  }
+}
+@media (min-width: 35em) {
+  .main-nav-list {
+    left: 15%;
+    top: 8%;
+    gap: 8.8rem;
+  }
+  .nav-svg {
+    width: 1038px;
+    height: 50%;
+    margin: 0rem;
+  }
+  .hero-section {
+    background-color: #f0f6ff;
+    height: 34vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .hero-text-box {
+    height: 85%;
+  }
+  .toggle-btn {
+    top: 83%;
+    position: absolute;
+    left: 43%;
+  }
+
+  .button-div {
+    /* gap: 16rem; */
+    justify-content: space-between;
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: -17%;
+    right: 5%;
+  }
+  .back-btn {
+    bottom: -15%;
+    left: 5%;
+  }
+}
+@media (min-width: 66.5em) {
+  body {
+    color: #f0f6ff;
+  }
+  .main-nav {
+    display: none;
+  }
+  .nav-svg {
+    display: none;
+  }
+  .main-div-tab {
+    display: block;
+  }
+  .main-nav-1 {
+    position: absolute;
+    display: block;
+    left: 6%;
+    top: 14%;
+  }
+  .main-div-tab {
+    width: 93%;
+  }
+  .nav-heading-1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .nav-div-1,
+  .nav-div-2,
+  .nav-div-3,
+  .nav-div-4 {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+  }
+  .nav-1,
+  .nav-2,
+  .nav-3,
+  .nav-4 {
+    font-size: 1.2rem;
+    color: #d6d9e6;
+    margin-bottom: 0.5rem;
+  }
+  .nav-div-1,
+  .nav-div-2,
+  .nav-div-3 {
+    margin-bottom: 2.4rem;
+  }
+  .nav-svg-1 {
+    width: 22rem;
+    height: 46rem;
+  }
+  .header {
+    position: relative;
+    padding-top: 4.8rem;
+    padding: 3.2rem 2rem;
+    background-color: #f0f6ff;
+  }
+
+  .main-div-tab {
+    padding: 1rem 0rem;
+    padding-left: 1rem;
+    background-color: #fff;
+    box-shadow: 0.2rem 0.2rem 0.3rem hsl(217, 100%, 97%);
+    border-radius: 0.9rem;
+    text-decoration: none;
+  }
+  .main-nav-div-1 {
+    list-style: none;
+    text-decoration: none;
+  }
+  .main-nav-list {
+    text-decoration: none;
+  }
+  .main-nav-link {
+    text-decoration: none;
+  }
+  .main-nav-1 {
+    display: grid;
+  }
+
+  .hero-section {
+    height: 17vh;
+    background-color: none;
+    overflow: hidden;
+  }
+  .hero-text-box {
+    background-color: transparent;
+    width: 60%;
+    height: 85%;
+    top: 10%;
+    right: 13%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0rem;
+  }
+  .Arcade-div-grid,
+  .Arcade-div-grid-1 {
+    display: flex;
+    gap: 2.4rem;
+  }
+  .Arcade-div,
+  .Advanced-div,
+  .pro-div {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    margin-bottom: 1.6rem;
+    align-items: center;
+    border: 0.1rem solid #d6d9e6;
+    border-radius: 0.4rem;
+    padding: 2.5rem 5rem;
+  }
+  .Arcade-div-1,
+  .Advanced-div-1,
+  .pro-div-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    margin-bottom: 1.6rem;
+    align-items: center;
+    border: 0.1rem solid #d6d9e6;
+    border-radius: 0.4rem;
+    padding: 1.2rem 3.5rem;
+  }
+
+  .button-div {
+    color: #9699ab;
+    justify-content: space-between;
+  }
+  .next-main-div {
+    background-color: #f0f6ff;
+  }
+  .toggle-btn {
+    position: absolute;
+    top: 57%;
+    left: 45%;
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 22%;
+    right: 16%;
+  }
+  .back-btn {
+    bottom: 24%;
+    left: 30%;
+  }
+}
+@media (min-width: 71rem) {
+  .button-div {
+    width: 93%;
+    color: #9699ab;
+    justify-content: space-between;
+    /* gap: 20rem; */
+    /* background-color: transparent; */
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 22%;
+    right: 19%;
+  }
+  .back-btn {
+    bottom: 24%;
+    left: 30%;
+  }
+}
+@media (min-width: 75rem) {
+  .button-div {
+    width: 88%;
+    color: #9699ab;
+    justify-content: space-between;
+    /* gap: 20rem; */
+    /* background-color: transparent; */
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 24%;
+    right: 22%;
+  }
+  .back-btn {
+    bottom: 25%;
+    left: 30%;
+  }
+}
+@media (min-width: 77rem) {
+  .header {
+    padding-left: 9.8rem;
+  }
+  .main-nav-1 {
+    position: absolute;
+    display: block;
+    left: 12%;
+    top: 18%;
+  }
+
+  .main-div-tab {
+    width: 85%;
+  }
+  .hero-text-box {
+    background-color: transparent;
+    width: 60%;
+    height: 85%;
+    top: 10%;
+    right: 11%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0rem;
+    /* padding: 2rem; */
+  }
+  .visible,
+  .hidden {
+    width: 80rem;
+  }
+  .button-div {
+    width: 85%;
+    color: #9699ab;
+    justify-content: space-between;
+    /* gap: 20rem; */
+    /* background-color: transparent; */
+  }
+  .toggle-btn {
+    position: absolute;
+    top: 56%;
+    left: 40%;
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 24%;
+    right: 22%;
+  }
+  .back-btn {
+    bottom: 25%;
+    left: 32%;
+  }
+}
+@media (min-width: 84rem) {
+  .button-div {
+    width: 78%;
+    color: #9699ab;
+    justify-content: space-between;
+    /* gap: 20rem; */
+    /* background-color: transparent; */
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 24%;
+    right: 25%;
+  }
+  .back-btn {
+    bottom: 25%;
+    left: 32%;
+  }
+}
+@media (min-width: 88rem) {
+  .button-div {
+    width: 74%;
+    color: #9699ab;
+    justify-content: space-between;
+    /* gap: 20rem; */
+    /* background-color: transparent; */
+  }
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 24%;
+    right: 28%;
+  }
+  .back-btn {
+    bottom: 25%;
+    left: 32%;
+  }
+}
+@media (min-width: 90rem) {
+  .header {
+    padding-left: 9.8rem;
+  }
+  .main-nav-1 {
+    position: absolute;
+    display: block;
+    left: 12%;
+    top: 18%;
+  }
+  .main-div-tab {
+    width: 93%;
+  }
+  .hero-text-box {
+    background-color: transparent;
+    width: 60%;
+    height: 85%;
+    top: 10%;
+    right: 6%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0rem;
+  }
+  .button-div {
+    width: 85%;
+    justify-content: space-between;
+  }
+  .toggle-btn {
+    position: absolute;
+    left: 41%;
+  }
+  /* .next-btn-div {
+    bottom: 24%;
+    right: 17%;
+  } */
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 24%;
+    right: 17%;
+  }
+
+  .back-btn {
+    bottom: 25%;
+    left: 36%;
+  }
+}
+@media (min-width: 90rem) {
+  .header {
+    padding-left: 20rem;
+  }
+  .main-nav-1 {
+    position: absolute;
+    display: block;
+    left: 19%;
+    top: 18%;
+  }
+  .main-div-tab {
+    width: 85%;
+  }
+  .hero-text-box {
+    background-color: transparent;
+    width: 60%;
+    height: 85%;
+    top: 10%;
+    right: 2%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0rem;
+  }
+  .button-div {
+    width: 72%;
+    justify-content: space-between;
+  }
+  .toggle-btn {
+    position: absolute;
+    left: 33%;
+  }
+
+  .next-btn:link,
+  .next-btn:visited {
+    bottom: 24%;
+    right: 19%;
+  }
+
+  .back-btn {
+    bottom: 25%;
+    left: 40%;
+  }
+}
+@media (max-width: 100rem) {
+}
